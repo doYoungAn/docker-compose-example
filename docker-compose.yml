@@ -1,0 +1,6 @@
+version: '3'
+services:
+  web:
+    image: 'registry.gitlab.com/toysmyth/service/hyorim/indeokwon/underground-water-purification:v0.6.0'
+    ports:
+      - 8080
